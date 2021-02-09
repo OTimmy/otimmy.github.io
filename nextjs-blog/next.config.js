@@ -1,6 +1,8 @@
-const isProd = process.env.NODE_ENV === 'production'
+const isProd = (process.env.NODE_ENV || 'production') === 'production'
 
 module.exports = {
-  // Use the CDN in production and localhost for development.
-  assetPrefix: isProd ? 'https://cdn.statically.io/gh/OTimmy/otimmy.github.io/gh-pages/' : '',
+  exportPathMap: () => ({
+    '/': { page: '/' },
+  }),
+  assetPrefix: isProd ? '/otimmy.github.io' : '',
 }
