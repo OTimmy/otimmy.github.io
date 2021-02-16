@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import List from './list';
-import SideBar from './sidebar'
-import styles from './sidebar.module.css'
-import listStyles from './list.module.css'
+import List from './List/list';
+import SideBar from './SideBar/sidebar'
+import styles from './SideBar/sidebar.module.css'
+import listStyles from './List/list.module.css'
 
 // import SideBar from ;
 

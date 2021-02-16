@@ -10,8 +10,8 @@ function SideBar() {
                         Skafferiet
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col bg-white">
+                <div className={`row `}>
+                    <div className={`col bg-white`}>
                         asdasd
                     </div>
                 </div>
