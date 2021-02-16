@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat');
 
 .wrapper {
-    display:flex;
+    display:none;
     align-items: stretch
 }
 
 .sidebar {
-    min-width: 250px;
-    max-width: 250px;
+    min-width: 20%;
+    max-width: 20%;
     min-height: 100vh;
 }
 
-.title{
-    min-height: 7vh;
+.title {
+    min-height: 9vh;
     font-family: 'Caveat';
-    font-size: 55px;
+    font-size: 56px;
+    text-align: center;
 }
 
 .fill {
